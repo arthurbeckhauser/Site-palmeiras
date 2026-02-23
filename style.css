@@ -1,10 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #Escudo {
-    width: 150px;
+    width: 140px;
 }
 
 #navbar {
     background-color: #006437;
-    color: white;
+    color: rgb(255, 255, 255);
 
     display: flex;
     justify-content: space-between;
@@ -12,4 +19,22 @@
 
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#noticia {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.noticias {
+    background-color: #006437;
+    color: white;
+    border: 6px solid #00ff8c;;
+}
+
+.img_noticia {
+    width: 600px;
+    height: 500px;
 }
