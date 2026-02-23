@@ -1,0 +1,15 @@
+#Escudo {
+    width: 150px;
+}
+
+#navbar {
+    background-color: #006437;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
